@@ -19,7 +19,7 @@ type Coordinate = readonly [number, number, string];
 
 function formatCoordinate(cordinate: Coordinate): string {
   const [latitude, longitude, locationName] = cordinate;
-  return `"Location: ${locationName} (${latitude}, ${longitude})"`;
+  return `Location: ${locationName} (${latitude}, ${longitude})`;
 }
 
 function concatenateArrays<T>(...arrays: T[][]): T[] {
