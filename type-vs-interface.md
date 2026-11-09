@@ -59,7 +59,7 @@
     
     ```
 
-    3. Union can not use directly in `Interface` but in `Type` can 
+3. Union can not use directly in `Interface` but in `Type` can 
    
    ```
    type UserID = number | string;

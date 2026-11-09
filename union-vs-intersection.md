@@ -1,5 +1,5 @@
 
-# Combining Union (`|`) and Intersection (`&`) Types in TypeScript
+# Union (`|`) and Intersection (`&`) Types in TypeScript
 
 Let LMS has two types of users:
 
