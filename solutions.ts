@@ -2,7 +2,7 @@ function multiplyValue(value: number, multiplier?: number): number {
   if (multiplier !== undefined) {
     return value * multiplier;
   }
-  return value * 2; // Default multiplier is 2 if not provided
+  return value * 2; 
 }
 
 function processInput(input: string | number | boolean): string {
